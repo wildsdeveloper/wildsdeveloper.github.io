@@ -236,6 +236,7 @@ const projects = [
     ],
     image: promptopia,
     source_code_link: "https://github.com/wildsrincon/promptopia",
+     app_link: "https://promptopia-five.vercel.app",
   },
   {
     name: "Weather App Angular",
@@ -257,6 +258,7 @@ const projects = [
     ],
     image: weather_app,
     source_code_link: "https://github.com/wildsrincon/Angular-Weather-App",
+    app_link: "https://weather-app-66cf5.firebaseapp.com",
   },
   {
     name: "Github Battle",
@@ -278,6 +280,7 @@ const projects = [
     ],
     image: github_battle,
     source_code_link: "https://github.com/wildsrincon/github-battle",
+    app_link:"https://github-battle-wr.netlify.app/"
   },
   {
     name: "Robofriends",
@@ -299,6 +302,7 @@ const projects = [
     ],
     image: robofriends,
     source_code_link: "https://github.com/wildsrincon/robofriends",
+    app_link:"https://robofriends-wr.netlify.app/"
   },
   {
     name: "Adopt Me",
@@ -320,6 +324,7 @@ const projects = [
     ],
     image: adoptme,
     source_code_link: "https://github.com/wildsrincon/adopt-me",
+    app_link:"https://adopt-me-wr.vercel.app/"
   },
 ];
 
