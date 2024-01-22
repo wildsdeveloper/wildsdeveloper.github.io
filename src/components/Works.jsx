@@ -26,7 +26,6 @@ const ProjectCard = ({
           speed: 450,
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
-        onClick={() => window.open(app_link, "_blank")}
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -50,7 +49,7 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+          <h3 onClick={() => window.open(app_link, "_blank")} className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
