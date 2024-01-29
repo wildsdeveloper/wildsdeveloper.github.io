@@ -1,8 +1,8 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import backend from "./backend.webp";
+import creator from "./creator.webp";
+import mobile from "./mobile.webp";
+import web from "./web.webp";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -32,11 +32,11 @@ import ceiba_software from "./company/ceiba_software.png";
 import sempli from "./company/sempli.jpg";
 import freelance from "./company/freelance.jpeg";
 
-import promptopia from "./promptopia.png";
-import weather_app from "./weather_app.jpg";
-import github_battle from "./github_battle.png";
-import robofriends from "./robofriends.png";
-import adoptme from "./adoptme.png";
+import promptopia from "./promptopia.webp";
+import weather_app from "./weather_app.webp";
+import github_battle from "./github_battle.webp";
+import robofriends from "./robofriends.webp";
+import adoptme from "./adoptme.webp";
 
 export {
   logo,
@@ -74,5 +74,5 @@ export {
   weather_app,
   github_battle,
   robofriends,
-  adoptme
+  adoptme,
 };
