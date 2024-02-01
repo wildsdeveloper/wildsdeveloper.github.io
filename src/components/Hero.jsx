@@ -1,9 +1,12 @@
+import { useTranslation, Trans } from "react-i18next";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -16,11 +19,13 @@ const Hero = () => {
 
         <div className="mt-5 md:mt-2">
           <h1 className="font-black text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-16 md:mt-5 tracking-tight">
-            Hi, I'm <span className="text-[#915EFF]">Wilder Rincon</span>
+            {t("greeting")}
+            &nbsp;<span className="text-[#915EFF]">Wilder Rincon</span>
           </h1>
           <p className={`${styles.heroSubText} text-white-100`}>
-            I develop modern websites, user <br className="sm:block hidden" />
-            interfaces and web applications
+            {t("desc_hero1")} 
+            <br className="sm:block hidden" />
+            {t("desc_hero2")}
           </p>
         </div>
       </div>

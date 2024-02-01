@@ -38,6 +38,9 @@ import github_battle from "./github_battle.webp";
 import robofriends from "./robofriends.webp";
 import adoptme from "./adoptme.webp";
 
+import en from "./flags/en.png";
+import es from "./flags/es.png";
+
 export {
   logo,
   backend,
@@ -75,4 +78,6 @@ export {
   github_battle,
   robofriends,
   adoptme,
+  en,
+  es,
 };

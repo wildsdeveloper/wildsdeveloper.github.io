@@ -26,6 +26,8 @@ import {
   github_battle,
   robofriends,
   adoptme,
+  en,
+  es,
 } from "../assets";
 
 export const navLinks = [
@@ -40,6 +42,17 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+];
+
+const languages = [
+  {
+    id: 1,
+    icon: es,
+  },
+  {
+    id: 2,
+    icon: en,
   },
 ];
 
@@ -236,7 +249,7 @@ const projects = [
     ],
     image: promptopia,
     source_code_link: "https://github.com/wildsrincon/promptopia",
-     app_link: "https://promptopia-five.vercel.app",
+    app_link: "https://promptopia-five.vercel.app",
   },
   {
     name: "Weather App Angular",
@@ -262,8 +275,7 @@ const projects = [
   },
   {
     name: "Github Battle",
-    description:
-      "Project developed in React JS, Battle of profiles github.",
+    description: "Project developed in React JS, Battle of profiles github.",
     tags: [
       {
         name: "react",
@@ -280,7 +292,7 @@ const projects = [
     ],
     image: github_battle,
     source_code_link: "https://github.com/wildsrincon/github-battle",
-    app_link:"https://github-battle-wr.netlify.app/"
+    app_link: "https://github-battle-wr.netlify.app/",
   },
   {
     name: "Robofriends",
@@ -302,7 +314,7 @@ const projects = [
     ],
     image: robofriends,
     source_code_link: "https://github.com/wildsrincon/robofriends",
-    app_link:"https://robofriends-wr.netlify.app/"
+    app_link: "https://robofriends-wr.netlify.app/",
   },
   {
     name: "Adopt Me",
@@ -324,8 +336,15 @@ const projects = [
     ],
     image: adoptme,
     source_code_link: "https://github.com/wildsrincon/adopt-me",
-    app_link:"https://adopt-me-wr.vercel.app/"
+    app_link: "https://adopt-me-wr.vercel.app/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  languages,
+};

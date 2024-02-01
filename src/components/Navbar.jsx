@@ -5,6 +5,8 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
+import LanguageSwitcher from "./LanguageSwitcher";
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -62,7 +64,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-
+        <LanguageSwitcher />
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
