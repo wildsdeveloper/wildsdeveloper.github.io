@@ -14,7 +14,7 @@ function LanguageSwitcher() {
     i18n.changeLanguage(lng);
   };
 
-  const flagPath = (lng) => `src/assets/flags/${lng}.png`;
+  const flagPath = (lng) => `assets/flags/${lng}.png`;
 
   return (
     <div className="flex items-center space-x-2">
