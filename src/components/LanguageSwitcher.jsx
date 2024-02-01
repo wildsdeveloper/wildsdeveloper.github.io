@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import es from "../assets/flags/es.png";
+import en from "../assets/flags/en.png";
 
 const langs = {
-  es: { nativeName: "ES" },
-  en: { nativeName: "EN" },
+  es: { nativeName: "ES", icon: es },
+  en: { nativeName: "EN", icon: en},
 };
 
 function LanguageSwitcher() {
@@ -18,11 +20,10 @@ function LanguageSwitcher() {
 
   return (
     <div className="flex items-center space-x-2">
-      {Object.keys(langs).map((lng) => (
+      {Object.keys(langs).map((lng, icon) => (
         <button
           type="submit"
           key={lng}
-          icon={langs.es.icon}
           onClick={() => {
             setActive(langs[lng]);
             changeLanguage(lng);
@@ -30,7 +31,7 @@ function LanguageSwitcher() {
         >
           <img
             className="w-4 h-4"
-            src={flagPath("es" === lng ? "es" : "en")}
+            src={icon === 0 ? es : en}
             alt={langs[lng].nativeName}
           />
         </button>
