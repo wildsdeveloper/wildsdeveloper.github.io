@@ -70,7 +70,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Data Analyst",
+    title: "Data Engineer",
     icon: creator,
   },
 ];
