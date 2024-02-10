@@ -94,5 +94,55 @@
         "Experiencia: limpieza/tratamiento de datos con Anaconda y Python, diseño de maquetación de páginas de aterrizaje y práctica de despliegue de infraestructura como código con servicios SAM aws."
       ]
     }
-  ]
+  ],
+  "footer": "Hecho con ❤️ por WildsRincon © 2023. Todos los derechos reservados.",
+  "projects_title": "Proyectos",
+  "projects_subtitle": "Algunos de mis trabajos",
+  "projects_desc": "Los siguientes proyectos muestran mis habilidades y experiencia a través de ejemplos reales de mi trabajo. Cada proyecto se describe brevemente con enlaces a repositorios de código y demostraciones en vivo. Refleja mi capacidad para resolver problemas complejos, trabajar con diferentes tecnologías y gestionar proyectos con eficacia.",
+  "projects": [
+    {
+      "description": "Sitio web de Promptopia construido usando NextJs, ReactJs y Tailwind CSS con MongoDB, Express y NextAuth para autenticación"
+    },
+    {
+      "description": "App meteorológica con geolocalización y pronóstico del tiempo para 5 días, build in con Angular 9, API Openweather."
+    },
+    {
+      "description": "Proyecto desarrollado en React JS, Batalla de perfiles github"
+    },
+    {
+      "description": "Proyecto desarrollado en React JS, búsqueda de nombre en diferentes robots"
+    },
+    {
+      "description": "Proyecto desarrollado en React JS, Proyecto final curso Completo Intro to React, v5 e Intermediate React, v2 con Brian Holt."
+    }
+  ],
+  "testimonials_title": "Testimonios",
+  "testimonials_subtitle": "Lo que dicen de mi",
+  "testimonials": [
+    {
+      "testimonial": "He tenido la oportunidad de trabajar con Wilder en múltiples ocasiones y siempre ha sido un placer. Es una persona motivada y con una actitud positiva constante. Wilder sobresale en la comunicación con los demás y siempre está dispuesto a trabajar duro hasta resolver el problema en cuestión.",
+      "position": "Desarrollador IOS",
+      "company": "Baires Dev"
+    },
+    {
+      "testimonial": "Nunca he conocido a un desarrollador web que realmente se preocupe por el éxito de sus clientes como lo hace Wilder",
+      "position": "COO",
+      "company": "Def Corp."
+    },
+    {
+      "testimonial": "Después de que Wilder optimizara nuestras aplicaciones, nuestro tráfico aumentó un 50%. No podemos agradecérselo lo suficiente!",
+      "position": "Asesor Alcaldía de Barranquilla",
+      "company": "Alcaldia de Barranquilla"
+    }
+  ],
+  "contact_title": "Contacto",
+  "contact_subtitle": "Hablemos",
+  "contact_name": "Nombre Completo",
+  "placeholder_name": "¿Cuál es tu nombre?",
+  "contact_email": "Correo electrónico",
+  "placeholder_email": "¿Cuál es tu email?",
+  "contact_message": "Tu mensaje",
+  "placeholder_message": "¿Qué tienes en mente?",
+  "contact_button": "Enviar",
+  "contact_sending": "Enviando..."
 }

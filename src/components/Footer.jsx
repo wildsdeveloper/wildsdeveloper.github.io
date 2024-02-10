@@ -1,7 +1,10 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { logo } from "../assets";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="w-full mx-auto">
       <div className="container px-5 py-5 mx-auto flex justify-around items-center md:flex-row flex-col">
@@ -12,9 +15,7 @@ const Footer = () => {
           </span>
         </div>
         <div className="flex justify-center items-center mt-2">
-          <p className="text-center">
-            Made with ❤️ by WildsRincon © 2023. All Rights Reserved.
-          </p>
+          <p className="text-center text-[#B08FFF]">{t("footer")}</p>
         </div>
         <div className="mt-2 text-center">
           <div className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start gap-4">

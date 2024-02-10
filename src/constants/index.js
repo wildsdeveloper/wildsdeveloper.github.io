@@ -206,7 +206,7 @@ const testimonials = [
     testimonial:
       "I have had the opportunity to work with Wilder on multiple occasions which has always been a pleasure. He is driven and motivated with a consistently positive attitude. Wilder excels at communicating with others and is always willing to work hard until he solves the problem at hand.",
     name: "Anderson Lopez",
-    designation: "IOS Developer",
+    position: "IOS Developer",
     company: "Baires Dev",
     image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
@@ -214,7 +214,7 @@ const testimonials = [
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: "Chris Brown",
-    designation: "COO",
+    position: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
@@ -222,7 +222,7 @@ const testimonials = [
     testimonial:
       "After Rick optimized our applications, our traffic increased by 50%. We can't thank them enough!",
     name: "Oscar Abril",
-    designation: "advisor mayor's office of barranquilla",
+    position: "advisor mayor's office of barranquilla",
     company: "mayor's office of barranquilla",
     image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
