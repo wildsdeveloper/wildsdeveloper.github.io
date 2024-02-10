@@ -23,7 +23,7 @@ const Hero = () => {
             &nbsp;<span className="text-[#B08FFF]">Wilder Rincon</span>
           </h1>
           <p className={`${styles.heroSubText} text-white-100`}>
-            {t("desc_hero1")} 
+            {t("desc_hero1")}
             <br className="sm:block hidden" />
             {t("desc_hero2")}
           </p>
@@ -32,7 +32,7 @@ const Hero = () => {
 
       <ComputersCanvas />
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute bottom-32 sm:bottom-10 w-full flex justify-center items-center top-[450px]">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div

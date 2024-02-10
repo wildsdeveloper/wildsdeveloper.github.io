@@ -224,7 +224,7 @@ const testimonials = [
     name: "Oscar Abril",
     position: "advisor mayor's office of barranquilla",
     company: "mayor's office of barranquilla",
-    image: "https://randomuser.me/api/portraits/men/4.jpg",
+    image: "https://randomuser.me/api/portraits/men/2.jpg",
   },
 ];
 

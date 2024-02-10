@@ -39,29 +39,31 @@ const ServiceCard = ({ index, title, icon }) => {
         </div>
       </motion.div>
     </Tilt>
-  )
+  );
 };
 
 const About = () => {
   const { t } = useTranslation();
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>{t("about_title")}</p>
-        <h2 className={styles.sectionHeadText}>{t("about_subtitle")}</h2>
-      </motion.div>
+      <div className={styles.sectionAbout}>
+        <motion.div variants={textVariant()}>
+          <p className={styles.sectionSubText}>{t("about_title")}</p>
+          <h2 className={styles.sectionHeadText}>{t("about_subtitle")}</h2>
+        </motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-      >
-        {t("about_desc")}
-      </motion.p>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        >
+          {t("about_desc")}
+        </motion.p>
 
-      <div className="mt-20 flex justify-center flex-wrap gap-10">
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
+        <div className="mt-20 flex flex-col lg:flex-row justify-center items-center gap-10">
+          {services.map((service, index) => (
+            <ServiceCard key={service.title} index={index} {...service} />
+          ))}
+        </div>
       </div>
     </>
   );
