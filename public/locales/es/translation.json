@@ -1,5 +1,98 @@
 {
+  "navLinks": [
+    {
+      "id": "about",
+      "title": "Sobre mi"
+    },
+    {
+      "id": "work",
+      "title": "Experiencia"
+    },
+    {
+      "id": "projects",
+      "title": "Proyectos"
+    },
+    {
+      "id": "contact",
+      "title": "Contacto"
+    }
+  ],
   "greeting": "Hola, Soy",
   "desc_hero1": "Desarrollamos sitios web modernos, interfaces",
-  "desc_hero2": "de usuario, aplicaciones web y moviles."
+  "desc_hero2": "de usuario, aplicaciones web y moviles.",
+  "about_title": "Sobre mi",
+  "about_subtitle": "Resumen",
+  "about_desc": "Soy un desarrollador de software con experiencia en diferentes lenguajes de programación TypeScript, JavaScript y Python. Ademas cuento con experiencia en tecnologias como React, React Native para móviles, Node.js, y Flask. Aprendo rápido y colaboro estrechamente con los clientes para crear soluciones eficientes, escalables y fáciles de usar que resuelven problemas reales del mundo real. Vamos a trabajar juntos para convertir ideas en proyectos reales!",
+  "services": [
+    {
+      "title": "Desarrollador Web"
+    },
+    {
+      "title": "Desarrollador React Native"
+    },
+    {
+      "title": "Desarrollador Fullstack"
+    },
+    {
+      "title": "Ingeniero de Datos"
+    }
+  ],
+  "exp_title": "un poco mas sobre mi experiencia",
+  "exp_subtitle": "Experiencia Profesional",
+  "experiences": [
+    {
+      "title": "Desarrolladror Web Freelance",
+      "company_name": "Freelancer",
+      "date": "Enero 2015 - Actualmente",
+      "points": [
+        "Desarrollo y mantenimiento de aplicaciones web utilizando diferentes tecnologías web y otras tecnologías relacionadas.",
+        "Colaborar con equipos multifuncionales, incluidos diseñadores, gestores de productos y otros desarrolladores, para crear productos de alta calidad.",
+        "Implementar un diseño adaptable y garantizar la compatibilidad entre navegadores."
+      ]
+    },
+    {
+      "title": "Web UI Developer SSR Advanced",
+      "company_name": "Globant",
+      "date": "Enero 2022 - Mayo 2022",
+      "points": [
+        "Trabajé como desarrollador front-end en un equipo de la empresa Sodimac en una iniciativa llamada Retail",
+        "Colaborar con equipos multifuncionales, incluidos diseñadores, gestores de productos, Scrum masters y otros desarrolladores, para crear productos de alta calidad.",
+        "Desarrollo de la interfaz de una plataforma de ecommerce donde desarrollamos junto con el equipo diferentes componentes de una iniciativa llamada pantallas 3.0 creando una nueva interfaz responsive.",
+        "Participar en revisiones de código, ceremorias scrum y proporcionar comentarios constructivos a otros desarrolladores."
+      ]
+    },
+    {
+      "title": "Arquitecto Desarrollador",
+      "company_name": "Ceiba Software",
+      "date": "Septiembre 2021 - Enero 2022",
+      "points": [
+        "Desarrollo y mantenimiento de aplicaciones web utilizando React.js y otras tecnologías relacionadas.",
+        "Colaborar con equipos interfuncionales, incluidos diseñadores, gestores de productos y otros desarrolladores, para crear productos de alta calidad.",
+        "Implementar un diseño adaptable y garantizar la compatibilidad entre navegadores.",
+        "Participar en revisiones de código, ceremorias scrum y proporcionar comentarios constructivos a otros desarrolladores."
+      ]
+    },
+    {
+      "title": "Desarrollador Frontend",
+      "company_name": "Alcaldia de Barranquilla",
+      "date": "Enero 2021 - Septiembre 2021",
+      "points": [
+        "Desarrollo y mantenimiento de aplicaciones web utilizando React.js y otras tecnologías relacionadas.",
+        "Desarrollo de componentes e interfaces con React JS Consumo de microservicios generados para visualizar los datos de la base de datos, Desarrollo de dashboard administrativo para visualizar datos e informes.",
+        "Implementar un diseño adaptable y garantizar la compatibilidad entre navegadores.",
+        "Participar en revisiones de código, liderar cambios tecnológicos en las diferentes aplicaciones y crear nuevas interfaces basadas en react."
+      ]
+    },
+    {
+      "title": "Desarrollador Fullstack",
+      "company_name": "Sempli",
+      "date": "Septiembre 2020 - Noviember 2020",
+      "points": [
+        "Desarrollo de un modelo de aprendizaje automatico como parte de un proyecto interno de la empresa Sempli.",
+        "Colaborar con equipos interfuncionales, incluidos diseñadores, gestores de productos y otros desarrolladores, para crear productos de alta calidad.",
+        "Implementar un diseño adaptable y garantizar la compatibilidad entre navegadores.",
+        "Experiencia: limpieza/tratamiento de datos con Anaconda y Python, diseño de maquetación de páginas de aterrizaje y práctica de despliegue de infraestructura como código con servicios SAM aws."
+      ]
+    }
+  ]
 }

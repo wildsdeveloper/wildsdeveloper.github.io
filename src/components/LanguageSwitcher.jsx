@@ -5,18 +5,16 @@ import en from "../assets/flags/en.png";
 
 const langs = {
   es: { nativeName: "ES", icon: es },
-  en: { nativeName: "EN", icon: en},
+  en: { nativeName: "EN", icon: en },
 };
 
 function LanguageSwitcher() {
-  const [active, setActive] = useState(langs.es);
+  const [, setActive] = useState(langs.es);
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
-
-  const flagPath = (lng) => `src/assets/flags/${lng}.png`;
 
   return (
     <div className="flex items-center space-x-2">

@@ -30,7 +30,7 @@ import {
   es,
 } from "../assets";
 
-export const navLinks = [
+const navLinks = [
   {
     id: "about",
     title: "About",
@@ -38,6 +38,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -341,6 +345,7 @@ const projects = [
 ];
 
 export {
+  navLinks,
   services,
   technologies,
   experiences,

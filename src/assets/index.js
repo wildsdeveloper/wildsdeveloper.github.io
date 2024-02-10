@@ -41,6 +41,10 @@ import adoptme from "./adoptme.webp";
 import en from "./flags/en.png";
 import es from "./flags/es.png";
 
+import linkedin from "./social/linkedin.svg";
+import github_social from "./social/github.svg";
+import twitter from "./social/x.svg";
+
 export {
   logo,
   backend,
@@ -80,4 +84,7 @@ export {
   adoptme,
   en,
   es,
+  linkedin,
+  github_social,
+  twitter,
 };

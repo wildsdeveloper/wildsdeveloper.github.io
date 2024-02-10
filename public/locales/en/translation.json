@@ -1,5 +1,98 @@
 {
+  "navLinks": [
+    {
+      "id": "about",
+      "title": "About"
+    },
+    {
+      "id": "work",
+      "title": "Experience"
+    },
+    {
+      "id": "projects",
+      "title": "Projects"
+    },
+    {
+      "id": "contact",
+      "title": "Contact"
+    }
+  ],
   "greeting": "Hi, I'm",
   "desc_hero1": "I develop modern websites, user",
-  "desc_hero2": "interfaces, web and mobile applications."
+  "desc_hero2": "interfaces, web and mobile applications.",
+  "about_title": "About me",
+  "about_subtitle": "Overview",
+  "about_desc": "I'm a skilled software developer with experience in different programming languages TypeScript, JavaScript and Python, and expertise in frameworks like React, React Native for mobile, Node.js, and Flask. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!",
+  "services": [
+    {
+      "title": "Web Developer"
+    },
+    {
+      "title": "React Native Developer"
+    },
+    {
+      "title": "Fullstack Developer"
+    },
+    {
+      "title": "Data Engineer"
+    }
+  ],
+  "exp_title": "A bit more about my experience",
+  "exp_subtitle": "Work Experience",
+  "experiences": [
+    {
+      "title": "Software Developer Freelance",
+      "company_name": "Freelance",
+      "date": "January 2015 - Currently",
+      "points": [
+        "Developing and maintaining web applications using different web technologies and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility."
+      ]
+    },
+    {
+      "title": "Web UI Developer SSR Advanced",
+      "company_name": "Globant",
+      "date": "January 2022 - June 2022",
+      "points": [
+        "I worked as a front-end developer in a Sodimac Project team in an initiative called Retail",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing an ecommerce platform interface where we developed together with the team different components of an initiative called screens 3.0 creating a new responsive interface",
+        "Participate in code reviews, scrum reviews and provide constructive feedback to other developers."
+      ]
+    },
+    {
+      "title": "Developer Architect",
+      "company_name": "Ceiba Software",
+      "date": "September 2021 - January 2022",
+      "points": [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers."
+      ]
+    },
+    {
+      "title": "Frontend Developer",
+      "company_name": "Mayor of Barranquilla",
+      "date": "January 2021 - September 2021",
+      "points": [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Component and interface development with React JS Consumption of microservices generated to visualize the data in the database, Development of administrative dashboard to visualize data and reports",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participate in code reviews, lead technology changes in the different applications and create new interfaces based in react."
+      ]
+    },
+    {
+      "title": "Full stack Developer",
+      "company_name": "Sempli",
+      "date": "September 2020 - November 2020",
+      "points": [
+        "Development of a machine learning model as part of an internal project of the company Sempli.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Experience: data cleaning/treatment with Anaconda and Python, landing page layout design, and practicing infrastructure deployment as code with SAM aws services."
+      ]
+    }
+  ]
 }
