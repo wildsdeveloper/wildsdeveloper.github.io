@@ -6,7 +6,7 @@ const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <footer className="w-full mx-auto">
+    <footer className="w-full mx-auto bg-primary">
       <div className="container px-5 py-5 mx-auto flex justify-around items-center md:flex-row flex-col">
         <div className="flex justify-center items-center mt-2">
           <img src={logo} alt="logo-wr" className="w-9 h-9 object-contain" />

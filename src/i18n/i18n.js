@@ -6,7 +6,6 @@ i18next
   .use(Backend)
   .use(initReactI18next)
   .init({
-    debug: true,
     fallbackLng: "es",
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default

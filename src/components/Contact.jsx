@@ -88,9 +88,11 @@ const Contact = () => {
             </span>
             <input
               type="text"
+              id="name"
               name="name"
               value={form.name}
               onChange={handleChange}
+              autoComplete="mame"
               placeholder={t("placeholder_name")}
               className="bg-[#B08FFF] py-4 px-6 placeholder:text-white text-white rounded-lg outline-none border-none font-medium"
             />
@@ -101,9 +103,11 @@ const Contact = () => {
             </span>
             <input
               type="email"
+              id="email"
               name="email"
               value={form.email}
               onChange={handleChange}
+              autoComplete="email"
               placeholder={t("placeholder_email")}
               className="bg-[#B08FFF] py-4 px-6 placeholder:text-white text-white rounded-lg outline-none border-none font-medium"
             />

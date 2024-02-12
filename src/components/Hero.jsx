@@ -1,56 +1,82 @@
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 
+import { FiArrowDownCircle } from "react-icons/fi";
+import { SectionWrapper } from "../hoc";
+import { programming } from "../assets";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
-      <div
-        className={`absolute inset-0 sm:top-[50px] md:top-[70px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ ease: "easeInOut", duration: 0.9, delay: 0.2 }}
+      className="flex flex-col md:justify-between items-center lg:flex-row mt-12 md:mt-2"
+    >
+      <div className="w-full flex flex-col items-center lg:items-start text-center lg:text-left">
+        <motion.h1
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            ease: "easeInOut",
+            duration: 0.9,
+            delay: 0.1,
+          }}
+          className="font-black text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] md:mt-5 tracking-tight"
+        >
+          {t("greeting")}
+          <br />
+          <span className="text-[#B08FFF]">Wilder Rincon</span>
+        </motion.h1>
+        <motion.h2
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            ease: "easeInOut",
+            duration: 0.9,
+            delay: 0.2,
+          }}
+          className={`${styles.heroSubText} text-white-100`}
+        >
+          {t("desc_hero1")}
+          &nbsp;{t("desc_hero2")}
+        </motion.h2>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            ease: "easeInOut",
+            duration: 0.9,
+            delay: 0.3,
+          }}
+          className="flex justify-center sm:block"
+        >
+          <a
+            download="WildsRincon-Resume.pdf"
+            href="/files/CV_Wilder_Rincon_US.pdf"
+            className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
+            aria-label="Download Resume"
+          >
+            <FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FiArrowDownCircle>
+            <span className="text-sm sm:text-lg font-general-medium duration-100">
+              {t("btn_download")}
+            </span>
+          </a>
+        </motion.div>
+      </div>
+      <motion.div
+        initial={{ opacity: 0, y: -180 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ ease: "easeInOut", duration: 0.9, delay: 0.2 }}
+        className="w-full sm:w-2/3 mt-8"
       >
-        <div className="flex flex-col justify-center items-center mt-16 md:mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#B08FFF]" />
-          <div className="w-1 sm:h-80 h-40 violet-gradient" />
-        </div>
-
-        <div className="mt-5 md:mt-2">
-          <h1 className="font-black text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-16 md:mt-5 tracking-tight">
-            {t("greeting")}
-            &nbsp;<span className="text-[#B08FFF]">Wilder Rincon</span>
-          </h1>
-          <p className={`${styles.heroSubText} text-white-100`}>
-            {t("desc_hero1")}
-            <br className="sm:block hidden" />
-            {t("desc_hero2")}
-          </p>
-        </div>
-      </div>
-
-      <ComputersCanvas />
-
-      <div className="absolute bottom-32 sm:bottom-10 w-full flex justify-center items-center top-[450px]">
-        <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
-            />
-          </div>
-        </a>
-      </div>
-    </section>
+        <img src={programming} alt="Developer" />
+      </motion.div>
+    </motion.div>
   );
 };
 
-export default Hero;
+export default SectionWrapper(Hero);

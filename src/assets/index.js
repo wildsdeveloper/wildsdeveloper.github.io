@@ -45,6 +45,8 @@ import linkedin from "./social/linkedin.svg";
 import github_social from "./social/github.svg";
 import twitter from "./social/x.svg";
 
+import programming from "./programming.svg";
+
 export {
   logo,
   backend,
@@ -87,4 +89,5 @@ export {
   linkedin,
   github_social,
   twitter,
+  programming
 };
