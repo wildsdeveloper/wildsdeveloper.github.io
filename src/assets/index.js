@@ -37,6 +37,7 @@ import weather_app from "./weather_app.webp";
 import github_battle from "./github_battle.webp";
 import robofriends from "./robofriends.webp";
 import adoptme from "./adoptme.webp";
+import adoptmev2 from "./adoptme1.webp";
 
 import en from "./flags/en.png";
 import es from "./flags/es.png";
@@ -84,6 +85,7 @@ export {
   github_battle,
   robofriends,
   adoptme,
+  adoptmev2,
   en,
   es,
   linkedin,

@@ -26,6 +26,7 @@ import {
   github_battle,
   robofriends,
   adoptme,
+  adoptmev2,
   en,
   es,
 } from "../assets";
@@ -229,6 +230,32 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Adopt Me v2",
+    description:
+      "Adopt Me is an app built using ReactJs and Tailwind CSS, carried out during the course Complete Intro to React v8 and Intermediate React at Frontend Masters.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "React Query",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: adoptmev2,
+    source_code_link: "https://github.com/wildsrincon/adopt-me-v2",
+    app_link: "adopt-me-v2.vercel.app",
+  },
   {
     name: "Promptopia",
     description:
