@@ -6,6 +6,7 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
+    "dev-exposed": "vite --host",
     "preview": "vite preview"
   },
   "dependencies": {
