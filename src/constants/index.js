@@ -236,7 +236,7 @@ const projects = [
       "Adopt Me is an app built using ReactJs and Tailwind CSS, carried out during the course Complete Intro to React v8 and Intermediate React at Frontend Masters.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
@@ -248,7 +248,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwindcss",
         color: "pink-text-gradient",
       },
     ],
@@ -262,7 +262,7 @@ const projects = [
       "Promptopia website built using NextJs, ReactJs and Tailwind CSS with MongoDB, Express and NextAuth for authentication.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
@@ -270,11 +270,11 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwindcss",
         color: "pink-text-gradient",
       },
     ],
@@ -288,11 +288,11 @@ const projects = [
       "Weather App with geolocalization and pronostic weather for 5 days, build in with Angular 9, API Openweather",
     tags: [
       {
-        name: "angular",
+        name: "Angular",
         color: "pink-text-gradient",
       },
       {
-        name: "restapi",
+        name: "RestApi",
         color: "green-text-gradient",
       },
       {
@@ -309,15 +309,15 @@ const projects = [
     description: "Project developed in React JS, Battle of profiles github.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "jsx",
+        name: "JSX",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -331,15 +331,15 @@ const projects = [
       "Project developed in React JS, search differents robots for name.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "jsx",
+        name: "JSX",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -353,15 +353,15 @@ const projects = [
       "Project developed in React JS, Final project course Complete Intro to React, v5 and Intermediate React, v2 with Brian Holt",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "jsx",
+        name: "JSX",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
