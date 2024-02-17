@@ -11,6 +11,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -20,13 +21,15 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-React-1f425f.svg)](https://www.reactjs.org)
 
 ## Description
-Personal portfolio website built using ReactJs and Tailwind CSS, and three JS. 
-## Steps for install project
+
+Personal portfolio website built using ReactJs and Tailwind CSS, and three JS.
+
+## Steps for run docker
 
 - Clone the repo use the command git clone more url the github repo
-- Run command npm install for install node_modules
-- Use cd more name folder for the change root directory project
--Run the project using npm start
+- Install Docker
+- Run command docker compose up
+- Run the project dev implementing hot reloading changes
 
 ## Available Scripts
 
@@ -81,12 +84,13 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/an
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
+## Authors :busts_in_silhouette:
 
-## Authors :busts_in_silhouette: 
 [![GitHub followers](https://img.shields.io/github/followers/wildsrincon.svg?style=social&label=wildsrincon&maxAge=2592000)](https://github.com/wildsrincon?tab=followers)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/wildsrincon/promptopia.svg?style=plastic&logo=github
 [contributors-url]: https://github.com/wildsrincon/promptopia/graphs/contributors
 [license-shield]: https://img.shields.io/github/license/wildsrincon/promptopia.svg?style=plastic&logo=github
@@ -94,4 +98,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/wildsrincon
 [github-shield]: https://img.shields.io/badge/github/followers/:user?label=Follow
-
