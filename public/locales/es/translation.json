@@ -26,7 +26,7 @@
   "about_desc": "Soy un desarrollador de software con experiencia en diferentes lenguajes de programación TypeScript, JavaScript y Python. Ademas cuento con experiencia en tecnologias como React, React Native para móviles, Node.js, y Flask. Aprendo rápido y colaboro estrechamente con los clientes para crear soluciones eficientes, escalables y fáciles de usar que resuelven problemas reales del mundo real. Vamos a trabajar juntos para convertir ideas en proyectos reales!",
   "services": [
     {
-      "title": "Desarrollador Web"
+      "title": "Desarrollador de Software"
     },
     {
       "title": "Desarrollador React Native"
@@ -42,7 +42,7 @@
   "exp_subtitle": "Experiencia Profesional",
   "experiences": [
     {
-      "title": "Desarrollador Web Freelance",
+      "title": "Desarrollador de Software Freelance",
       "company_name": "Freelancer",
       "date": "Enero 2015 - Actualmente",
       "points": [
