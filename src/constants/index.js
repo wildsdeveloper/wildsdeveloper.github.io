@@ -146,8 +146,7 @@ const experiences = [
     points: [
       "Program website applications. You will be responsible for designing, coding, and
 maintain innovative websites and web applications, so that they can be used.",
-      "Build web pages with the structure necessary for them to function properly.
-correctly.",
+      "Build web pages with the structure necessary for them to function properly correctly.",
       "Create specific functionalities according to the project requirements.",
     ],
   },
