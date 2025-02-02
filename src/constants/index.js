@@ -16,6 +16,7 @@ import {
   git,
   figma,
   docker,
+  bm_logo,
   alcaldia_bq,
   globant,
   ceiba_software,
@@ -139,7 +140,7 @@ const experiences = [
    {
     title: "Master Developer CRM",
     company_name: "Brito Marketing",
-    icon: freelance,
+    icon: bm_logo,
     iconBg: "#383E56",
     date: "April 2024 - Currently",
     points: [
