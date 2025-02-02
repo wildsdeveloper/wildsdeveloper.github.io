@@ -42,6 +42,17 @@
   "exp_subtitle": "Work Experience",
   "experiences": [
     {
+      "title": "Master Developer CRM",
+      "company_name": "Brito Marketing",
+      "date": "April 2024 - Currently",
+      "points": [
+        "Program website applications. You will be responsible for designing, coding, and maintain innovative websites and web applications, so that they can be used.",
+        "Build web pages with the structure necessary for them to function properly correctly.",
+        "Create specific functionalities according to the project requirements.",
+        "Troubleshoot website issues, optimize website speed and responsiveness, and ensure browser compatibility."
+      ]
+    },
+    {
       "title": "Software Developer Freelance",
       "company_name": "Freelance",
       "date": "January 2015 - Currently",

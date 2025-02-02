@@ -25,7 +25,7 @@ import python from "./tech/python.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import  bm_logo from "./company/bm_logo.png";
 import alcaldia_bq from "./company/alcaldia_bq.png";
 import globant from "./company/globant.png";
 import ceiba_software from "./company/ceiba_software.png";
@@ -74,7 +74,7 @@ export {
   meta,
   shopify,
   starbucks,
-  tesla,
+  bm_logo,
   alcaldia_bq,
   globant,
   ceiba_software,

@@ -1,35 +1,35 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  python,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  bm_logo,
-  alcaldia_bq,
-  globant,
-  ceiba_software,
-  freelance,
-  sempli,
-  promptopia,
-  weather_app,
-  github_battle,
-  robofriends,
   adoptme,
   adoptmev2,
+  alcaldia_bq,
+  backend,
+  bm_logo,
+  ceiba_software,
+  creator,
+  css,
+  docker,
   en,
   es,
+  figma,
+  freelance,
+  git,
+  github_battle,
+  globant,
+  html,
+  javascript,
+  mobile,
+  mongodb,
+  nodejs,
+  promptopia,
+  python,
+  reactjs,
+  redux,
+  robofriends,
+  sempli,
+  tailwind,
+  typescript,
+  weather_app,
+  web,
 } from "../assets";
 
 const navLinks = [
@@ -137,17 +137,17 @@ const technologies = [
 ];
 
 const experiences = [
-   {
+  {
     title: "Master Developer CRM",
     company_name: "Brito Marketing",
     icon: bm_logo,
     iconBg: "#383E56",
     date: "April 2024 - Currently",
     points: [
-      "Program website applications. You will be responsible for designing, coding, and
-maintain innovative websites and web applications, so that they can be used.",
+      "Program website applications. You will be responsible for designing, coding, and maintain innovative websites and web applications, so that they can be used.",
       "Build web pages with the structure necessary for them to function properly correctly.",
       "Create specific functionalities according to the project requirements.",
+      "Troubleshoot website issues, optimize website speed and responsiveness, and ensure browser compatibility.",
     ],
   },
   {
@@ -386,11 +386,11 @@ const projects = [
 ];
 
 export {
+  experiences,
+  languages,
   navLinks,
+  projects,
   services,
   technologies,
-  experiences,
   testimonials,
-  projects,
-  languages,
 };

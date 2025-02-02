@@ -42,6 +42,17 @@
   "exp_subtitle": "Experiencia Profesional",
   "experiences": [
     {
+      "title": "Master Developer CRM",
+      "company_name": "Brito Marketing",
+      "date": "Abril 2024 - Actualmente",
+      "points": [
+        "Programar aplicaciones web. Será responsable de diseñar, codificar y mantener sitios y aplicaciones web innovadores, para que puedan ser utilizados.",
+        "Construir páginas web con la estructura necesaria para que funcionen correctamente.",
+        "Crear funcionalidades específicas según los requisitos del proyecto.",
+        "Solucionar problemas de los sitios web, optimizar la velocidad, la capacidad de respuesta de los sitios web y garantizar la compatibilidad con los navegadores."
+      ]
+    },
+    {
       "title": "Desarrollador Web Freelance",
       "company_name": "Freelancer",
       "date": "Enero 2015 - Actualmente",

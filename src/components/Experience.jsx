@@ -1,16 +1,16 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import { motion } from "framer-motion";
 
 import "react-vertical-timeline-component/style.min.css";
 
-import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -43,14 +43,20 @@ const ExperienceCard = ({ experience }) => {
       </div>
 
       <ul className="mt-5 list-disc ml-5 space-y-2">
-        {experience.points.map((point, index) => (
-          <li
-            key={`experience-point-${index}`}
-            className="text-white-100 text-[14px] pl-1 tracking-wider"
-          >
-            {point}
+        {experience.points && Array.isArray(experience.points) ? (
+          experience.points.map((point, index) => (
+            <li
+              key={`experience-point-${index}`}
+              className="text-white-100 text-[14px] pl-1 tracking-wider"
+            >
+              {point}
+            </li>
+          ))
+        ) : (
+          <li className="text-white-100 text-[14px] pl-1 tracking-wider">
+            No hay detalles disponibles
           </li>
-        ))}
+        )}
       </ul>
     </VerticalTimelineElement>
   );
@@ -74,7 +80,9 @@ const Experience = () => {
         <VerticalTimeline>
           {experiences.map((experience, index) => {
             experience.title = i18n.t(`experiences.${index}.title`);
-            experience.company_name = i18n.t(`experiences.${index}.company_name`);
+            experience.company_name = i18n.t(
+              `experiences.${index}.company_name`
+            );
             experience.date = i18n.t(`experiences.${index}.date`);
             experience.points = i18n.t(`experiences.${index}.points`, {
               returnObjects: true,
@@ -84,7 +92,7 @@ const Experience = () => {
                 key={`experience-${index}`}
                 experience={experience}
               />
-            )
+            );
           })}
         </VerticalTimeline>
       </div>
