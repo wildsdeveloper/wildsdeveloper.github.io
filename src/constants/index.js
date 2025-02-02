@@ -155,7 +155,7 @@ const experiences = [
     company_name: "Freelance",
     icon: freelance,
     iconBg: "#E6DEDD",
-    date: "January 2015 - Currently",
+    date: "June 2022 - March 2024",
     points: [
       "Developing and maintaining web applications using different web technologies and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
