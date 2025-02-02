@@ -136,6 +136,20 @@ const technologies = [
 ];
 
 const experiences = [
+   {
+    title: "Master Developer CRM",
+    company_name: "Brito Marketing",
+    icon: freelance,
+    iconBg: "#383E56",
+    date: "April 2024 - Currently",
+    points: [
+      "Program website applications. You will be responsible for designing, coding, and
+maintain innovative websites and web applications, so that they can be used.",
+      "Build web pages with the structure necessary for them to function properly.
+correctly.",
+      "Create specific functionalities according to the project requirements.",
+    ],
+  },
   {
     title: "Software Developer Freelance",
     company_name: "Freelance",
