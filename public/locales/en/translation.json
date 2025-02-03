@@ -113,6 +113,9 @@
   "projects_desc": "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
   "projects": [
     {
+      "description": "App to adopt pets developed with react 18 intro react V8 course Brian Holt Frontend Masters."
+    },
+    {
       "description": "Promptopia website built using NextJs, ReactJs and Tailwind CSS with MongoDB, Express and NextAuth for authentication."
     },
     {
